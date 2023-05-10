@@ -26,7 +26,7 @@ def api_updatepage(request, id):
         serialized_new_data.save()
         return Response(serialized_new_data.data)
     else:
-        return Response({"Error": "You typed rubbish!!"})
+        return Response
 
 
 
